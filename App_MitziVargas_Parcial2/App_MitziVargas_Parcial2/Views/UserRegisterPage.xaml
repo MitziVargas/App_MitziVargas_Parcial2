@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App_MitziVargas_Parcial2.Views.UserRegisterPage">
+    <ContentPage.Content>
+        <StackLayout Padding="20,10,20,10" BackgroundColor="LightBlue">
+
+
+            <Entry  x:Name="TxtName" Placeholder="Name" FontSize="Large"  TextColor="White"/>
+            <Entry  x:Name="TxtPass" Placeholder="Password" IsPassword="True" FontSize="Large" TextColor="White"/>
+            <Switch IsToggled="false" />
+          
+            <Entry x:Name="TxtActiveDescription" Placeholder="Active Description" TextTransform="Uppercase" FontSize="Large" TextColor="White"/>
+
+            
+
+            <FlexLayout>
+                
+
+                <StackLayout Padding="0,100,0,0" Orientation="Horizontal" HorizontalOptions="Fill">
+                    <Button Text="Add" WidthRequest="150" Padding="10,0,10,0" />
+                    <Button Text="Cancel" WidthRequest="150" Padding="10,0,10,0" />
+
+
+                </StackLayout>
+                
+            </FlexLayout>
+
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
